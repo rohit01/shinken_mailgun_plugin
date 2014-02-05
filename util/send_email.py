@@ -100,9 +100,7 @@ class SendEmail():
         self.params['subject'] = subject
         self.params['body'] = body
         # Send an email
-        print self.params
         post_data = urllib.urlencode(self.params)
         req = urllib2.Request(self.url, post_data, self.headers)
         response = urllib2.urlopen(req)
-        print response
         return response
