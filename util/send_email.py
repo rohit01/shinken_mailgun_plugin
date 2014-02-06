@@ -1,3 +1,6 @@
+# Python helper to make mailgun http requests
+#
+
 import urllib
 import urllib2
 import base64

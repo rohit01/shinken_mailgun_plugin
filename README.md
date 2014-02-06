@@ -1,7 +1,7 @@
 Shinken Mailgun Plugin
 ======================
 
-Utility to send emails through mailgun for Shinken alerts.
+Utility to send emails through mailgun for Shinken alerts. Blog post: http://rohit.io/shinken-mailgun-plugin.html
 
 ###### Prerequisite:
 - A working shinken setup installed in a server.
@@ -59,4 +59,3 @@ Once configurations files are updated, restart shinken-arbiter to apply settings
 
 ![Sample service check email alert](http://raw2.github.com/rohit01/shinken_mailgun_plugin/master/images/sample_email.png)
 
-**And as always, Thanks for reading :)**

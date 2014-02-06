@@ -1,3 +1,6 @@
+# Utility for managing ini config files
+#
+
 import logging
 from ConfigParser import ConfigParser
 from ConfigParser import NoOptionError

@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 #
+# Utility for sending alert emails in shinken
+# Author: Rohit - @rohit01
+#
 
 from optparse import OptionParser
 from util.send_email import SendEmail
